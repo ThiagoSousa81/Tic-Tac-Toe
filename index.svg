@@ -52,14 +52,13 @@
                 const x = Math.floor(evt.offsetX / 100);
                 const y = Math.floor(evt.offsetY / 100);
                 const index = y * 3 + x;
-
+            
                 if (boardState[index] === '' && gameActive) {
                     boardState[index] = currentPlayer;
                     drawSymbol(x, y, currentPlayer);
                     checkResult();
                     if (gameActive) {
-                        currentPlayer = 'O'; // O computador
-                        computerMove();
+                        computer2move(); // Chama a função para o computador jogar contra ele mesmo
                     }
                 }
             }
@@ -99,6 +98,20 @@
                     drawSymbol(x, y, currentPlayer);
                     checkResult();
                     currentPlayer = 'X'; // Volta para o jogador humano
+                }
+            }
+
+            function computer2move() {
+                if (gameActive) {
+                    // O computador faz o primeiro movimento
+                    currentPlayer = 'O'; // O computador
+                    computerMove();
+            
+                    // O computador faz o segundo movimento
+                    if (gameActive) {
+                        currentPlayer = 'X'; // O computador
+                        computerMove();
+                    }
                 }
             }
 
