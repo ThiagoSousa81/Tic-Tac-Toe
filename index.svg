@@ -1,4 +1,3 @@
-
 <svg width="300" height="400" id="board" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
         <![CDATA[
@@ -33,7 +32,7 @@
 
     <script type="text/javascript">
         <![CDATA[
-            let currentPlayer = 'X'; // O jogador humano
+            let currentPlayer = 'X'; // Começa com o jogador X
             let boardState = ['', '', '', '', '', '', '', '', ''];
             let gameActive = true;
 
@@ -47,22 +46,6 @@
                 [0, 4, 8],
                 [2, 4, 6]
             ];
-
-            function handleClick(evt) {
-                const x = Math.floor(evt.offsetX / 100);
-                const y = Math.floor(evt.offsetY / 100);
-                const index = y * 3 + x;
-
-                if (boardState[index] === '' && gameActive) {
-                    boardState[index] = currentPlayer;
-                    drawSymbol(x, y, currentPlayer);
-                    checkResult();
-                    if (gameActive) {
-                        currentPlayer = 'O'; // O computador
-                        computerMove();
-                    }
-                }
-            }
 
             function drawSymbol(x, y, player) {
                 const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
@@ -98,11 +81,17 @@
                     const y = Math.floor(move / 3);
                     drawSymbol(x, y, currentPlayer);
                     checkResult();
-                    currentPlayer = 'X'; // Volta para o jogador humano
+                    currentPlayer = currentPlayer === 'X' ? 'O' : 'X'; // Alterna entre X e O
                 }
             }
 
-            document.getElementById('board').addEventListener('click', handleClick);
+            function startGame() {
+                while (gameActive) {
+                    computerMove();
+                }
+            }
+
+            startGame(); // Inicia o jogo automaticamente
         ]]>
     </script>
 </svg>
