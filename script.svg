@@ -1,18 +1,8 @@
-<svg width="750" height="175" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="lightblue" />
-  <foreignObject x="0" y="0" width="750" height="175">
+  <foreignObject x="10" y="10" width="380" height="280">
     <body xmlns="http://www.w3.org/1999/xhtml">
-      <div style="font-family: 'Lucida Console'; font-weight: 600; font-size: 43px; color: #0A9529; text-align: center;">
-        Meu nome é Thiago Sousa<br />
-        Sou um Dev Full-Stack<br />
-        Dedicado à Criptografia<br />
-        Cientista por vocação 💚<br />
-        CEO do EBS Security Systems<br />
-        Cursando BCET na UFRB<br />
-        Sempre ativo no Git-Hub<br />
-        Disponível para projetos<br />
-        Descrição completa abaixo 😊
-      </div>
+      <iframe src="https://readme-typing-svg.demolab.com?font=Lucida+Console&weight=600&size=43&duration=3000&pause=1000&color=0A9529&center=true&vCenter=true&width=750&height=175&lines=Meu+nome+%C3%A9+Thiago+Sousa;Sou+um+Dev+Full-Stack;Dedicado+%C3%A0+Criptografia;Cientista+por+voca%C3%A7%C3%A3o+%F0%9F%92%9A;CEO+do+EBS+Security+Systems;Cursando+BCET+na+UFRB;Sempre+ativo+no+Git-Hub;Dispon%C3%ADvel+para+projetos;Descri%C3%A7%C3%A3o+completa+abaixo+%F0%9F%98%89" width="100%" height="100%" style="border: none;"></iframe>
     </body>
   </foreignObject>
 </svg>
