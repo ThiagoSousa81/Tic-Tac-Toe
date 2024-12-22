@@ -1,8 +1,94 @@
-<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="lightblue" />
-  <foreignObject x="10" y="10" width="380" height="280">
+<svg width="800" height="2500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white" />
+  
+  <!-- Typing SVG -->
+  <foreignObject x="10" y="10" width="780" height="175">
     <body xmlns="http://www.w3.org/1999/xhtml">
       <iframe src="https://readme-typing-svg.demolab.com?font=Lucida+Console&amp;weight=600&amp;size=43&amp;duration=3000&amp;pause=1000&amp;color=0A9529&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=175&amp;lines=Meu+nome+%C3%A9+Thiago+Sousa;Sou+um+Dev+Full-Stack;Dedicado+%C3%A0+Criptografia;Cientista+por+voca%C3%A7%C3%A3o+%F0%9F%92%9A;CEO+do+EBS+Security+Systems;Cursando+BCET+na+UFRB;Sempre+ativo+no+Git-Hub;Dispon%C3%ADvel+para+projetos;Descri%C3%A7%C3%A3o+completa+abaixo+%F0%9F%98%89" width="100%" height="100%" style="border: none;"></iframe>
     </body>
   </foreignObject>
+
+  <!-- Gráfico de Contribuições -->
+  <foreignObject x="10" y="200" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="./profile-3d-contrib/profile-night-green.svg" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- GitHub Stats -->
+  <foreignObject x="10" y="420" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="https://github-readme-stats.vercel.app/api?username=thiagosousa81&show_icons=true&locale=pt-br&theme=chartreuse-dark&layout=compact&count_private=true&include_all_pull-requests=true&show=reviews,discussions_started,discussions_answered,prs_merged&bg_color=90,000000,005000,000000" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Linguagens predominantes -->
+  <foreignObject x="10" y="640" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ThiagoSousa81&theme=chartreuse_dark&exclude=swift" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Status de Contribuições -->
+  <foreignObject x="10" y="860" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="https://github-readme-streak-stats.herokuapp.com/?user=thiagosousa81&show_icons=true&locale=pt-br&theme=chartreuse-dark&layout=compact" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Troféus -->
+  <foreignObject x="10" y="1080" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="https://github-profile-trophy.vercel.app/?username=thiagosousa81&theme=matrix&row=2&column=5" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Visualizações -->
+  <foreignObject x="10" y="1300" width="780" height="100">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="https://profile-counter.glitch.me/ThiagoSousa81/count.svg" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+<!-- GitHub Stats -->
+  <foreignObject x="10" y="1410" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="https://github-readme-stats.vercel.app/api?username=thiagosousa81&show_icons=true&locale=pt-br&theme=chartreuse-dark&layout=compact&count_private=true&include_all_pull-requests=true&show=reviews,discussions_started,discussions_answered,prs_merged&bg_color=90,000000,005000,000000" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Linguagens predominantes -->
+  <foreignObject x="10" y="1630" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=thiagosousa81&theme=chartreuse_dark" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Portfólio -->
+  <foreignObject x="10" y="1850" width="780" height="200">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <iframe src="https://github-readme-stats.vercel.app/api/pin/?username=EBS-Security-Systems&repo=Historico&theme=transparent&show_owner=true&PAT_1=thiagosousa81" width="100%" height="100%" style="border: none;"></iframe>
+    </body>
+  </foreignObject>
+
+  <!-- Contatos -->
+  <foreignObject x="10" y="2070" width="780" height="100">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <div style="text-align: center;">
+        <a href="https://www.instagram.com/thiago_sousa81/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+        <a href="mailto:thiagosousa81@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/thiagosousa81/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+      </div>
+    </body>
+  </foreignObject>
+
+  <!-- Footer -->
+  <foreignObject x="10" y="2200" width="780" height="100">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <div style="text-align: center;">
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer" width="100%" />
+      </div>
+    </body>
+  </foreignObject>
+
 </svg>
